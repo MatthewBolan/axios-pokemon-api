@@ -8,7 +8,7 @@ const Pokemon = () => {
     
     const getPokemonInfo = ()=>{
 
-        axios.get('https://pokeapi.co/api/v2/pokemon?offset=807&limit=807')
+        axios.get('https://pokeapi.co/api/v2/pokemon?offset=0&limit=807')
 
             .then(response =>{
 
