@@ -9,9 +9,13 @@ function App() {
 
     <div className="App">
 
+      <header className="App-header">
+
       <h1>Gotta Catch'em All!</h1>
 
       <Pokemon></Pokemon>
+
+    </header >
 
     </div>
 
